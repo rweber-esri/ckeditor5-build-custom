@@ -13,8 +13,8 @@ import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
 
-class ClassicEditor extends ClassicEditorBase {}
-class InlineEditor extends InlineEditorBase {}
+export default class ClassicEditor extends ClassicEditorBase {}
+// class InlineEditor extends InlineEditorBase {}
 
 const builtinPlugins = [
 	Bold,
@@ -45,13 +45,13 @@ const defaultConfig = {
 
 // Plugins to include in the build.
 ClassicEditor.builtinPlugins = builtinPlugins;
-InlineEditor.builtinPlugins = builtinPlugins;
+// InlineEditor.builtinPlugins = builtinPlugins;
 
 // Editor configuration.
 ClassicEditor.defaultConfig = defaultConfig;
-InlineEditor.defaultConfig = defaultConfig;
+// InlineEditor.defaultConfig = defaultConfig;
 
-export default {
-	ClassicEditor,
-	InlineEditor
-};
+// export default {
+// 	ClassicEditor,
+// 	InlineEditor
+// };
