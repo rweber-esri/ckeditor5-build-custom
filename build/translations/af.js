@@ -1,1 +1,1 @@
-!function(e){const n=e.af=e.af||{};n.dictionary=Object.assign(n.dictionary||{},{"%0 of %1":"%0 van %1",Bold:"Vet",Cancel:"Kanselleer",Italic:"Kursief",Save:"Stoor","Show more items":"Wys meer items"}),n.getPluralForm=function(e){return 1!=e}}(window.CKEDITOR_TRANSLATIONS||(window.CKEDITOR_TRANSLATIONS={}));
+!function(n){const i=n.af=n.af||{};i.dictionary=Object.assign(i.dictionary||{},{"%0 of %1":"%0 van %1","Show more items":"Wys meer items"}),i.getPluralForm=function(n){return 1!=n}}(window.CKEDITOR_TRANSLATIONS||(window.CKEDITOR_TRANSLATIONS={}));
