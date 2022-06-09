@@ -6,6 +6,7 @@ import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classicedi
 // import InlineEditorBase from '@ckeditor/ckeditor5-editor-inline/src/inlineeditor';
 // import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold.js';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials.js';
+import AutoformatPlugin from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 // import Heading from '@ckeditor/ckeditor5-heading/src/heading.js';
 // import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic.js';
 // import Link from '@ckeditor/ckeditor5-link/src/link.js';
@@ -20,6 +21,7 @@ export default class ClassicEditor extends ClassicEditorBase {}
 const builtinPlugins = [
 	// Bold,
 	Essentials,
+	AutoformatPlugin,
 	// Heading,
 	// Italic,
 	// Link,
