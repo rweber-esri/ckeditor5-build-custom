@@ -12,9 +12,9 @@ import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
 
-export default class ClassicEditor extends ClassicEditorBase {}
+class ClassicEditor extends ClassicEditorBase {}
 
-export const PLUGINS = {
+const PLUGINS = {
 	Bold,
 	Essentials,
 	Heading,
@@ -25,9 +25,9 @@ export const PLUGINS = {
 	TextTransformation
 };
 
-export const defaultPlugins = Object.values(PLUGINS);
+const defaultPlugins = Object.values(PLUGINS);
 
-export const defaultConfig = {
+const defaultConfig = {
 	toolbar: {
 		items: [
 			'heading',
@@ -48,3 +48,10 @@ ClassicEditor.builtinPlugins = defaultPlugins;
 
 // Editor configuration.
 ClassicEditor.defaultConfig = defaultConfig;
+
+export default {
+	ClassicEditor,
+	PLUGINS,
+	defaultPlugins,
+	defaultConfig
+};
